@@ -1,0 +1,38 @@
+.keylight{
+    padding: 0;
+    width: 12vh;
+    height: 10vh; 
+    border: 0.1rem solid white;
+    color:#000;
+    background-color: #f0f0f0;  
+    font-weight: bold;
+  }
+
+  .keydark{
+    padding: 0;
+    width: 12vh;
+    height: 10vh; 
+    border: 0.1rem solid white;
+    color: #fff;
+    background-color: #666;  
+    font-weight: bold;
+  }
+  .double-key{
+    width: 50%;   
+    font-weight: bold;
+  }  
+
+  .AC-key_light{
+    width: 50%;
+    background-color:#f0f0f0;
+    font-weight: bold;
+  }
+  .AC-key_dark{
+    width: 50%;
+    background-color:#666;
+    font-weight: bold;
+  }
+  .sciencetific{
+    width: 33.33%;
+    font-weight: bold;
+  }

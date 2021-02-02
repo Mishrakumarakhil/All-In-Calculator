@@ -1,0 +1,30 @@
+.calculator-display_light{
+    text-align: right;
+    background-color: #f0f0f0; 
+     
+  }
+  .display-digits_light{
+    width: 100%;
+    
+    height: 10vh;
+    border: 0.1vw solid lightslategrey;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #000;
+    font-size: calc(15px + 2vmin);
+  }
+  .calculator-display_dark{
+    text-align: right;
+    background-color: #666; 
+    
+  }
+  .display-digits_dark{
+    width: 100%;
+    
+    height: 10vh;
+    border: 0.1vw solid lightslategrey;
+    font-family: 'Nunito', sans-serif;
+    font-weight: bold;
+    color: #fff;
+    font-size: calc(15px + 2vmin);
+  }

@@ -1,0 +1,100 @@
+.Applight {
+  background-color: #fff;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: grey;
+  text-align: center;
+}
+
+.Appdark {
+  background-color: #000;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: grey;
+  text-align: center;
+}
+  
+.colu1_dark{
+  background-color: white;
+  border: 10px solid #070707; 
+}  
+
+.colu1_light{
+ background-color: black;
+  border: 10px solid rgb(240, 236, 236); 
+}
+   
+@media (min-width: 320px) and (max-width: 480px) { 
+     
+    .key{  
+      width: 16vw;
+      height: 16vw;
+    }
+    .display-digits{
+      height: 5vh;
+       border: 0.2vw solid black;
+   }
+   
+}
+  
+@media  (max-width: 319px) { 
+    .App{
+      background-color: purple;
+    }     
+    .key{
+      font-size: 5vw;
+      width: 16vw;
+      height: 16vw;
+    }
+    .display-digits{
+      height: 5vh;
+       border: 0.2vw solid black;
+   }
+}
+
+.Sciencetific{
+  background-color: #6e0303;
+   border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.Sciencetific:hover {opacity: 1}
+
+.Mode{
+  background-color: #4CAF50; 
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  font-size: 16px;
+  margin: 4px 2px;
+  opacity: 0.6;
+  transition: 0.3s;
+  display: inline-block;
+  text-decoration: none;
+  cursor: pointer;
+  font-weight: bold;
+}
+.Mode:hover {opacity: 1}
+
+
+  
+  
